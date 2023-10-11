@@ -14,7 +14,7 @@
         packages = flake-utils.lib.flattenTree {
           dirbuster = pkgs.callPackage ./pkgs/tools/security/dirbuster { };
 
-          exploitdb = pkgs.callPackage ./pkgs/tools/security/exploitdb { };
+          # exploitdb = pkgs.callPackage ./pkgs/tools/security/exploitdb { };
 
           GTFOBLookup = pkgs.callPackage ./pkgs/tools/security/GTFOBLookup { };
 
