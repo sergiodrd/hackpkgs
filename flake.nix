@@ -20,7 +20,8 @@
 
           # logic = pkgs.callPackage ./pkgs/tools/misc/logic { };
 
-          msodbcsql = pkgs.callPackage ./pkgs/development/libraries/msodbcsql { };
+          # msodbcsql = pkgs.callPackage ./pkgs/development/libraries/msodbcsql { };
+          # download.microsoft.com is down lmao
 
           # mssql-tools = pkgs.callPackage ./pkgs/applications/misc/mssql-tools { };
           # download.microsoft.com is down lmao
