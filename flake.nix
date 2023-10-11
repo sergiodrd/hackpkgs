@@ -22,7 +22,8 @@
 
           msodbcsql = pkgs.callPackage ./pkgs/development/libraries/msodbcsql { };
 
-          mssql-tools = pkgs.callPackage ./pkgs/applications/misc/mssql-tools { };
+          # mssql-tools = pkgs.callPackage ./pkgs/applications/misc/mssql-tools { };
+          # download.microsoft.com is down lmao
 
           netdiscover = pkgs.callPackage ./pkgs/tools/security/netdiscover { };
 
